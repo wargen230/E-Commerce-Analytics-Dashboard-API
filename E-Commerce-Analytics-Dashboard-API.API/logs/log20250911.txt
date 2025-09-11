@@ -1,0 +1,389 @@
+2025-09-11 21:12:20.285 +03:00 [INF] Now listening on: https://localhost:7119
+2025-09-11 21:12:20.310 +03:00 [INF] Now listening on: http://localhost:5157
+2025-09-11 21:12:20.379 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-11 21:12:20.379 +03:00 [INF] Hosting environment: Development
+2025-09-11 21:12:20.379 +03:00 [INF] Content root path: C:\E-Commerce-Analytics-Dashboard-API\E-Commerce-Analytics-Dashboard-API.API
+2025-09-11 21:12:21.684 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/index.html - null null
+2025-09-11 21:12:21.963 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/index.html - 200 null text/html;charset=utf-8 287.71ms
+2025-09-11 21:12:22.005 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-11 21:12:22.014 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/_framework/aspnetcore-browser-refresh.js - 200 16561 application/javascript; charset=utf-8 8.3889ms
+2025-09-11 21:12:22.083 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/_vs/browserLink - null null
+2025-09-11 21:12:22.176 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/_vs/browserLink - 200 null text/javascript; charset=UTF-8 92.9528ms
+2025-09-11 21:12:22.373 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/v1/swagger.json - null null
+2025-09-11 21:12:22.390 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.6318ms
+2025-09-11 21:13:09.903 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/averag-receipt?startDate=2024-09-20&endDate=2024-09-22 - null null
+2025-09-11 21:13:09.929 +03:00 [INF] Executing endpoint 'E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryIsController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API)'
+2025-09-11 21:13:09.981 +03:00 [INF] Route matched with {action = "AverageReceipt", controller = "SummaryIs"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AverageReceipt(System.DateTime, System.DateTime) on controller E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryIsController (E-Commerce-Analytics-Dashboard-API.API).
+2025-09-11 21:13:09.994 +03:00 [INF] Executed action E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryIsController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API) in 5.6548ms
+2025-09-11 21:13:09.995 +03:00 [INF] Executed endpoint 'E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryIsController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API)'
+2025-09-11 21:13:10.000 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryIsController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.ThrowHelperUnableToResolveService(Type type, Type requiredBy)
+   at lambda_method3(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2025-09-11 21:13:10.057 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/averag-receipt?startDate=2024-09-20&endDate=2024-09-22 - 500 null text/plain; charset=utf-8 161.1602ms
+2025-09-11 21:15:08.484 +03:00 [INF] Now listening on: https://localhost:7119
+2025-09-11 21:15:08.506 +03:00 [INF] Now listening on: http://localhost:5157
+2025-09-11 21:15:08.586 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-11 21:15:08.587 +03:00 [INF] Hosting environment: Development
+2025-09-11 21:15:08.587 +03:00 [INF] Content root path: C:\E-Commerce-Analytics-Dashboard-API\E-Commerce-Analytics-Dashboard-API.API
+2025-09-11 21:15:09.504 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/index.html - null null
+2025-09-11 21:15:09.754 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/index.html - 200 null text/html;charset=utf-8 270.4396ms
+2025-09-11 21:15:09.870 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/_vs/browserLink - null null
+2025-09-11 21:15:09.870 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-11 21:15:09.877 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/_framework/aspnetcore-browser-refresh.js - 200 16561 application/javascript; charset=utf-8 6.13ms
+2025-09-11 21:15:09.924 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.1435ms
+2025-09-11 21:15:10.079 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/v1/swagger.json - null null
+2025-09-11 21:15:10.095 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 16.1087ms
+2025-09-11 21:15:20.764 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/averag-receipt?startDate=%222024-09-20%22&endDate=%222024-09-22%22 - null null
+2025-09-11 21:15:20.789 +03:00 [INF] Executing endpoint 'E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API)'
+2025-09-11 21:15:20.822 +03:00 [INF] Route matched with {action = "AverageReceipt", controller = "Summary"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AverageReceipt(System.DateTime, System.DateTime) on controller E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController (E-Commerce-Analytics-Dashboard-API.API).
+2025-09-11 21:15:21.633 +03:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-09-11 21:15:21.690 +03:00 [INF] Executed action E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API) in 862.8121ms
+2025-09-11 21:15:21.690 +03:00 [INF] Executed endpoint 'E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API)'
+2025-09-11 21:15:21.693 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/averag-receipt?startDate=%222024-09-20%22&endDate=%222024-09-22%22 - 400 null application/problem+json; charset=utf-8 929.3228ms
+2025-09-11 21:15:29.299 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/averag-receipt?startDate=2024-09-20&endDate=2024-09-22 - null null
+2025-09-11 21:15:29.300 +03:00 [INF] Executing endpoint 'E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API)'
+2025-09-11 21:15:29.301 +03:00 [INF] Route matched with {action = "AverageReceipt", controller = "Summary"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AverageReceipt(System.DateTime, System.DateTime) on controller E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController (E-Commerce-Analytics-Dashboard-API.API).
+2025-09-11 21:15:31.140 +03:00 [ERR] Failed executing DbCommand (66ms) [Parameters=[@__startDate_0='?' (DbType = DateTime), @__endDate_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(sum(o."TotalAmount"), 0.0)
+FROM "Orders" AS o
+WHERE o."Date" >= @__startDate_0 AND o."Date" <= @__endDate_1
+2025-09-11 21:15:31.204 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'E_Commerce_Analytics_Dashboard_API.API.Shared.ShopContext'.
+System.ArgumentException: Cannot write DateTime with Kind=Unspecified to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+System.ArgumentException: Cannot write DateTime with Kind=Unspecified to PostgreSQL type 'timestamp with time zone', only UTC is supported. Note that it's not possible to mix DateTimes with different Kinds in an array, range, or multirange. (Parameter 'value')
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(DateTime value, Nullable`1 expectedPgTypeId, Boolean validateOnly)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver.<>c.<CreateResolver>b__0_0(DateTimeConverterResolver`1 resolver, DateTime value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.Converters.DateTimeConverterResolver`1.Get(T value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgConverterResolver`1.GetAsObjectInternal(PgTypeInfo typeInfo, Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgResolverTypeInfo.GetResolutionAsObject(Object value, Nullable`1 expectedPgTypeId)
+   at Npgsql.Internal.PgTypeInfo.GetObjectResolution(Object value)
+   at Npgsql.NpgsqlParameter.ResolveConverter(PgTypeInfo typeInfo)
+   at Npgsql.NpgsqlParameter.ResolveTypeInfo(PgSerializerOptions options)
+   at Npgsql.NpgsqlParameterCollection.ProcessParameters(PgSerializerOptions options, Boolean validateValues, CommandType commandType)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+2025-09-11 21:17:54.646 +03:00 [INF] Now listening on: https://localhost:7119
+2025-09-11 21:17:54.667 +03:00 [INF] Now listening on: http://localhost:5157
+2025-09-11 21:17:54.729 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-11 21:17:54.730 +03:00 [INF] Hosting environment: Development
+2025-09-11 21:17:54.730 +03:00 [INF] Content root path: C:\E-Commerce-Analytics-Dashboard-API\E-Commerce-Analytics-Dashboard-API.API
+2025-09-11 21:17:55.177 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/index.html - null null
+2025-09-11 21:17:55.383 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/index.html - 200 null text/html;charset=utf-8 212.0409ms
+2025-09-11 21:17:55.429 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-11 21:17:55.446 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/_framework/aspnetcore-browser-refresh.js - 200 16561 application/javascript; charset=utf-8 16.2206ms
+2025-09-11 21:17:55.473 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/_vs/browserLink - null null
+2025-09-11 21:17:55.549 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/_vs/browserLink - 200 null text/javascript; charset=UTF-8 76.4926ms
+2025-09-11 21:17:55.730 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/v1/swagger.json - null null
+2025-09-11 21:17:55.755 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.7826ms
+2025-09-11 21:18:11.354 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/api/Summary/average-receipt?startDate=2024-09-20&endDate=2024-09-22 - null null
+2025-09-11 21:18:11.379 +03:00 [INF] Executing endpoint 'E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API)'
+2025-09-11 21:18:11.414 +03:00 [INF] Route matched with {action = "AverageReceipt", controller = "Summary"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AverageReceipt(System.DateTime, System.DateTime) on controller E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController (E-Commerce-Analytics-Dashboard-API.API).
+2025-09-11 21:18:13.611 +03:00 [ERR] Failed executing DbCommand (96ms) [Parameters=[@__startDate_0='?' (DbType = DateTime), @__endDate_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(sum(o."TotalAmount"), 0.0)
+FROM "Orders" AS o
+WHERE o."Date" >= @__startDate_0 AND o."Date" <= @__endDate_1
+2025-09-11 21:18:13.688 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'E_Commerce_Analytics_Dashboard_API.API.Shared.ShopContext'.
+Npgsql.PostgresException (0x80004005): 42P01: relation "Orders" does not exist
+
+POSITION: 50
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Orders" does not exist
+    Position: 50
+    File: parse_relation.c
+    Line: 1449
+    Routine: parserOpenTable
+Npgsql.PostgresException (0x80004005): 42P01: relation "Orders" does not exist
+
+POSITION: 50
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42P01
+    MessageText: relation "Orders" does not exist
+    Position: 50
+    File: parse_relation.c
+    Line: 1449
+    Routine: parserOpenTable
+2025-09-11 21:31:56.625 +03:00 [INF] Now listening on: https://localhost:7119
+2025-09-11 21:31:56.649 +03:00 [INF] Now listening on: http://localhost:5157
+2025-09-11 21:31:56.799 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-11 21:31:56.799 +03:00 [INF] Hosting environment: Development
+2025-09-11 21:31:56.799 +03:00 [INF] Content root path: C:\E-Commerce-Analytics-Dashboard-API\E-Commerce-Analytics-Dashboard-API.API
+2025-09-11 21:31:57.801 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger - null null
+2025-09-11 21:31:58.281 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger - 301 0 null 496.5387ms
+2025-09-11 21:31:58.289 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/index.html - null null
+2025-09-11 21:31:58.369 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/index.html - 200 null text/html;charset=utf-8 78.4409ms
+2025-09-11 21:31:58.397 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/swagger-ui.css - null null
+2025-09-11 21:31:58.398 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/swagger-ui-bundle.js - null null
+2025-09-11 21:31:58.398 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/swagger-ui-standalone-preset.js - null null
+2025-09-11 21:31:58.398 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-11 21:31:58.428 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/_framework/aspnetcore-browser-refresh.js - 200 16561 application/javascript; charset=utf-8 8.9291ms
+2025-09-11 21:31:58.534 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/_vs/browserLink - null null
+2025-09-11 21:31:58.668 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-09-11 21:31:58.668 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-09-11 21:31:58.669 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/swagger-ui.css - 200 152034 text/css 271.9277ms
+2025-09-11 21:31:58.669 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 270.4979ms
+2025-09-11 21:31:58.701 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-09-11 21:31:58.702 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 303.9246ms
+2025-09-11 21:31:58.799 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/_vs/browserLink - 200 null text/javascript; charset=UTF-8 281.5174ms
+2025-09-11 21:31:58.900 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/v1/swagger.json - null null
+2025-09-11 21:31:58.912 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.7278ms
+2025-09-11 21:32:13.834 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/api/Summary/average-receipt?startDate=2024-09-20&endDate=2024-09-22 - null null
+2025-09-11 21:32:13.851 +03:00 [INF] Executing endpoint 'E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API)'
+2025-09-11 21:32:13.878 +03:00 [INF] Route matched with {action = "AverageReceipt", controller = "Summary"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AverageReceipt(System.DateTime, System.DateTime) on controller E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController (E-Commerce-Analytics-Dashboard-API.API).
+2025-09-11 21:32:15.479 +03:00 [ERR] Failed executing DbCommand (56ms) [Parameters=[@__startDate_0='?' (DbType = DateTime), @__endDate_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(sum(o."TotalAmount"), 0.0)
+FROM orders AS o
+WHERE o."Date" >= @__startDate_0 AND o."Date" <= @__endDate_1
+2025-09-11 21:32:15.520 +03:00 [ERR] An exception occurred while iterating over the results of a query for context type 'E_Commerce_Analytics_Dashboard_API.API.Shared.ShopContext'.
+Npgsql.PostgresException (0x80004005): 42703: column o.TotalAmount does not exist
+
+POSITION: 21
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column o.TotalAmount does not exist
+    Hint: Perhaps you meant to reference the column "o.total_amount".
+    Position: 21
+    File: parse_relation.c
+    Line: 3729
+    Routine: errorMissingColumn
+Npgsql.PostgresException (0x80004005): 42703: column o.TotalAmount does not exist
+
+POSITION: 21
+   at Npgsql.Internal.NpgsqlConnector.ReadMessageLong(Boolean async, DataRowLoadingMode dataRowLoadingMode, Boolean readingNotifications, Boolean isReadingPrependedMessage)
+   at System.Runtime.CompilerServices.PoolingAsyncValueTaskMethodBuilder`1.StateMachineBox`1.System.Threading.Tasks.Sources.IValueTaskSource<TResult>.GetResult(Int16 token)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult(Boolean async, Boolean isConsuming, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlDataReader.NextResult()
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(Boolean async, CommandBehavior behavior, CancellationToken cancellationToken)
+   at Npgsql.NpgsqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Npgsql.NpgsqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.InitializeReader(Enumerator enumerator)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.<>c.<MoveNext>b__21_0(DbContext _, Enumerator enumerator)
+   at Npgsql.EntityFrameworkCore.PostgreSQL.Storage.Internal.NpgsqlExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SingleQueryingEnumerable`1.Enumerator.MoveNext()
+  Exception data:
+    Severity: ERROR
+    SqlState: 42703
+    MessageText: column o.TotalAmount does not exist
+    Hint: Perhaps you meant to reference the column "o.total_amount".
+    Position: 21
+    File: parse_relation.c
+    Line: 3729
+    Routine: errorMissingColumn
+2025-09-11 21:44:01.919 +03:00 [INF] Now listening on: https://localhost:7119
+2025-09-11 21:44:01.948 +03:00 [INF] Now listening on: http://localhost:5157
+2025-09-11 21:44:02.025 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-11 21:44:02.026 +03:00 [INF] Hosting environment: Development
+2025-09-11 21:44:02.026 +03:00 [INF] Content root path: C:\E-Commerce-Analytics-Dashboard-API\E-Commerce-Analytics-Dashboard-API.API
+2025-09-11 21:44:02.852 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/index.html - null null
+2025-09-11 21:44:03.074 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/index.html - 200 null text/html;charset=utf-8 229.0276ms
+2025-09-11 21:44:03.178 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-11 21:44:03.179 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/_vs/browserLink - null null
+2025-09-11 21:44:03.186 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/_framework/aspnetcore-browser-refresh.js - 200 16561 application/javascript; charset=utf-8 7.6084ms
+2025-09-11 21:44:03.351 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/_vs/browserLink - 200 null text/javascript; charset=UTF-8 171.4661ms
+2025-09-11 21:44:03.664 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/v1/swagger.json - null null
+2025-09-11 21:44:03.680 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.8718ms
+2025-09-11 21:45:21.651 +03:00 [INF] Now listening on: https://localhost:7119
+2025-09-11 21:45:21.682 +03:00 [INF] Now listening on: http://localhost:5157
+2025-09-11 21:45:21.806 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-11 21:45:21.806 +03:00 [INF] Hosting environment: Development
+2025-09-11 21:45:21.806 +03:00 [INF] Content root path: C:\E-Commerce-Analytics-Dashboard-API\E-Commerce-Analytics-Dashboard-API.API
+2025-09-11 21:45:22.233 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/index.html - null null
+2025-09-11 21:45:22.473 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/index.html - 200 null text/html;charset=utf-8 255.0244ms
+2025-09-11 21:45:22.503 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-11 21:45:22.511 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/_framework/aspnetcore-browser-refresh.js - 200 16561 application/javascript; charset=utf-8 8.7566ms
+2025-09-11 21:45:22.536 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/_vs/browserLink - null null
+2025-09-11 21:45:22.596 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/_vs/browserLink - 200 null text/javascript; charset=UTF-8 59.5465ms
+2025-09-11 21:45:22.750 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/v1/swagger.json - null null
+2025-09-11 21:45:22.764 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 15.1435ms
+2025-09-11 21:45:33.595 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/api/Summary/average-receipt?startDate=2024-09-20&endDate=2024-09-22 - null null
+2025-09-11 21:45:33.635 +03:00 [INF] Executing endpoint 'E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API)'
+2025-09-11 21:45:33.685 +03:00 [INF] Route matched with {action = "AverageReceipt", controller = "Summary"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AverageReceipt(System.DateTime, System.DateTime) on controller E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController (E-Commerce-Analytics-Dashboard-API.API).
+2025-09-11 21:45:36.223 +03:00 [INF] Executed DbCommand (113ms) [Parameters=[@__startDate_0='?' (DbType = DateTime), @__endDate_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(sum(o.total_amount), 0.0)
+FROM orders AS o
+WHERE o.date >= @__startDate_0 AND o.date <= @__endDate_1
+2025-09-11 21:45:36.306 +03:00 [INF] Executed DbCommand (9ms) [Parameters=[@__startDate_0='?' (DbType = DateTime), @__endDate_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM orders AS o
+WHERE o.date >= @__startDate_0 AND o.date <= @__endDate_1
+2025-09-11 21:45:36.316 +03:00 [INF] The average check for the period has been calculated: 2024-09-20 - 2024-09-22
+2025-09-11 21:45:36.326 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-11 21:45:36.341 +03:00 [INF] Executed action E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API) in 2651.8062ms
+2025-09-11 21:45:36.341 +03:00 [INF] Executed endpoint 'E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API)'
+2025-09-11 21:45:36.348 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/api/Summary/average-receipt?startDate=2024-09-20&endDate=2024-09-22 - 200 null application/json; charset=utf-8 2754.03ms
+2025-09-11 21:46:38.597 +03:00 [INF] Now listening on: https://localhost:7119
+2025-09-11 21:46:38.631 +03:00 [INF] Now listening on: http://localhost:5157
+2025-09-11 21:46:38.732 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-11 21:46:38.733 +03:00 [INF] Hosting environment: Development
+2025-09-11 21:46:38.733 +03:00 [INF] Content root path: C:\E-Commerce-Analytics-Dashboard-API\E-Commerce-Analytics-Dashboard-API.API
+2025-09-11 21:46:39.326 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/index.html - null null
+2025-09-11 21:46:39.505 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/index.html - 200 null text/html;charset=utf-8 182.9245ms
+2025-09-11 21:46:39.562 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-11 21:46:39.572 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/_vs/browserLink - null null
+2025-09-11 21:46:39.580 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/_framework/aspnetcore-browser-refresh.js - 200 16561 application/javascript; charset=utf-8 17.878ms
+2025-09-11 21:46:39.630 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/_vs/browserLink - 200 null text/javascript; charset=UTF-8 58.3996ms
+2025-09-11 21:46:39.781 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/v1/swagger.json - null null
+2025-09-11 21:46:39.788 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.8867ms
+2025-09-11 21:46:57.588 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/api/Summary/average-receipt?startDate=2024-09-20&endDate=2024-09-25 - null null
+2025-09-11 21:46:57.608 +03:00 [INF] Executing endpoint 'E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API)'
+2025-09-11 21:46:57.640 +03:00 [INF] Route matched with {action = "AverageReceipt", controller = "Summary"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AverageReceipt(System.DateTime, System.DateTime) on controller E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController (E-Commerce-Analytics-Dashboard-API.API).
+2025-09-11 21:46:59.351 +03:00 [INF] Executed DbCommand (81ms) [Parameters=[@__startDate_0='?' (DbType = DateTime), @__endDate_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(sum(o.total_amount), 0.0)
+FROM orders AS o
+WHERE o.date >= @__startDate_0 AND o.date <= @__endDate_1
+2025-09-11 21:46:59.425 +03:00 [INF] Executed DbCommand (11ms) [Parameters=[@__startDate_0='?' (DbType = DateTime), @__endDate_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM orders AS o
+WHERE o.date >= @__startDate_0 AND o.date <= @__endDate_1
+2025-09-11 21:46:59.434 +03:00 [INF] The average check for the period has been calculated: 2024-09-20 - 2024-09-25
+2025-09-11 21:46:59.447 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-11 21:46:59.471 +03:00 [INF] Executed action E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API) in 1823.7623ms
+2025-09-11 21:46:59.471 +03:00 [INF] Executed endpoint 'E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API)'
+2025-09-11 21:46:59.489 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/api/Summary/average-receipt?startDate=2024-09-20&endDate=2024-09-25 - 200 null application/json; charset=utf-8 1901.9329ms
+2025-09-11 21:47:41.553 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/api/Summary/average-receipt?startDate=2024-09-19&endDate=2024-09-25 - null null
+2025-09-11 21:47:41.580 +03:00 [INF] Executing endpoint 'E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API)'
+2025-09-11 21:47:41.585 +03:00 [INF] Route matched with {action = "AverageReceipt", controller = "Summary"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AverageReceipt(System.DateTime, System.DateTime) on controller E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController (E-Commerce-Analytics-Dashboard-API.API).
+2025-09-11 21:47:41.647 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__startDate_0='?' (DbType = DateTime), @__endDate_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(sum(o.total_amount), 0.0)
+FROM orders AS o
+WHERE o.date >= @__startDate_0 AND o.date <= @__endDate_1
+2025-09-11 21:47:41.652 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__startDate_0='?' (DbType = DateTime), @__endDate_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM orders AS o
+WHERE o.date >= @__startDate_0 AND o.date <= @__endDate_1
+2025-09-11 21:47:41.653 +03:00 [INF] The average check for the period has been calculated: 2024-09-19 - 2024-09-25
+2025-09-11 21:47:41.653 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-11 21:47:41.653 +03:00 [INF] Executed action E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API) in 68.0354ms
+2025-09-11 21:47:41.654 +03:00 [INF] Executed endpoint 'E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API)'
+2025-09-11 21:47:41.654 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/api/Summary/average-receipt?startDate=2024-09-19&endDate=2024-09-25 - 200 null application/json; charset=utf-8 101.9453ms
+2025-09-11 21:47:47.695 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/api/Summary/average-receipt?startDate=2024-09-19&endDate=2024-09-22 - null null
+2025-09-11 21:47:47.696 +03:00 [INF] Executing endpoint 'E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API)'
+2025-09-11 21:47:47.696 +03:00 [INF] Route matched with {action = "AverageReceipt", controller = "Summary"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AverageReceipt(System.DateTime, System.DateTime) on controller E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController (E-Commerce-Analytics-Dashboard-API.API).
+2025-09-11 21:47:47.720 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[@__startDate_0='?' (DbType = DateTime), @__endDate_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(sum(o.total_amount), 0.0)
+FROM orders AS o
+WHERE o.date >= @__startDate_0 AND o.date <= @__endDate_1
+2025-09-11 21:47:47.725 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__startDate_0='?' (DbType = DateTime), @__endDate_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM orders AS o
+WHERE o.date >= @__startDate_0 AND o.date <= @__endDate_1
+2025-09-11 21:47:47.725 +03:00 [INF] The average check for the period has been calculated: 2024-09-19 - 2024-09-22
+2025-09-11 21:47:47.726 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-11 21:47:47.726 +03:00 [INF] Executed action E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API) in 29.9639ms
+2025-09-11 21:47:47.726 +03:00 [INF] Executed endpoint 'E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API)'
+2025-09-11 21:47:47.726 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/api/Summary/average-receipt?startDate=2024-09-19&endDate=2024-09-22 - 200 null application/json; charset=utf-8 31.4776ms
+2025-09-11 21:51:34.861 +03:00 [INF] Now listening on: https://localhost:7119
+2025-09-11 21:51:34.886 +03:00 [INF] Now listening on: http://localhost:5157
+2025-09-11 21:51:34.949 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-11 21:51:34.949 +03:00 [INF] Hosting environment: Development
+2025-09-11 21:51:34.950 +03:00 [INF] Content root path: C:\E-Commerce-Analytics-Dashboard-API\E-Commerce-Analytics-Dashboard-API.API
+2025-09-11 21:51:35.669 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/index.html - null null
+2025-09-11 21:51:35.846 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/index.html - 200 null text/html;charset=utf-8 184.8338ms
+2025-09-11 21:51:35.936 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/_vs/browserLink - null null
+2025-09-11 21:51:35.936 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-11 21:51:35.945 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/_framework/aspnetcore-browser-refresh.js - 200 16561 application/javascript; charset=utf-8 9.4916ms
+2025-09-11 21:51:35.999 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/_vs/browserLink - 200 null text/javascript; charset=UTF-8 63.5589ms
+2025-09-11 21:51:36.131 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/v1/swagger.json - null null
+2025-09-11 21:51:36.142 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 11.5014ms
+2025-09-11 21:51:45.983 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/api/Summary/average-receipt?startDate=2024-09-20&endDate=2024-09-22 - null null
+2025-09-11 21:51:46.001 +03:00 [INF] Executing endpoint 'E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API)'
+2025-09-11 21:51:46.022 +03:00 [INF] Route matched with {action = "AverageReceipt", controller = "Summary"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult AverageReceipt(System.DateTime, System.DateTime) on controller E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController (E-Commerce-Analytics-Dashboard-API.API).
+2025-09-11 21:51:47.823 +03:00 [INF] Executed DbCommand (103ms) [Parameters=[@__startDate_0='?' (DbType = DateTime), @__endDate_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT COALESCE(sum(o.total_amount), 0.0)
+FROM orders AS o
+WHERE o.date >= @__startDate_0 AND o.date <= @__endDate_1
+2025-09-11 21:51:47.882 +03:00 [INF] Executed DbCommand (7ms) [Parameters=[@__startDate_0='?' (DbType = DateTime), @__endDate_1='?' (DbType = DateTime)], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM orders AS o
+WHERE o.date >= @__startDate_0 AND o.date <= @__endDate_1
+2025-09-11 21:51:47.893 +03:00 [INF] The average check for the period has been calculated: 2024-09-20 - 2024-09-22
+2025-09-11 21:51:47.905 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Decimal, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-09-11 21:51:47.931 +03:00 [INF] Executed action E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API) in 1903.9652ms
+2025-09-11 21:51:47.931 +03:00 [INF] Executed endpoint 'E_Commerce_Analytics_Dashboard_API.API.Controllers.SummaryController.AverageReceipt (E-Commerce-Analytics-Dashboard-API.API)'
+2025-09-11 21:51:47.942 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/api/Summary/average-receipt?startDate=2024-09-20&endDate=2024-09-22 - 200 null application/json; charset=utf-8 1960.2095ms

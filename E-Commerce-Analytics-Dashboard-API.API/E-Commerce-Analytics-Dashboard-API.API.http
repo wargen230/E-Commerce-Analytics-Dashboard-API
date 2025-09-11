@@ -1,0 +1,6 @@
+@E_Commerce_Analytics_Dashboard_API.API_HostAddress = http://localhost:5157
+
+GET {{E_Commerce_Analytics_Dashboard_API.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

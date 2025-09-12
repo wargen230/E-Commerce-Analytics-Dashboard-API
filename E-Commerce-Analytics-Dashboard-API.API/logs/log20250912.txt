@@ -1,0 +1,29 @@
+2025-09-12 15:33:55.346 +03:00 [INF] Now listening on: http://localhost:5157
+2025-09-12 15:33:55.451 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 15:33:55.452 +03:00 [INF] Hosting environment: Development
+2025-09-12 15:33:55.452 +03:00 [INF] Content root path: /root/E-Commerce-Analytics-Dashboard-API/E-Commerce-Analytics-Dashboard-API.API
+2025-09-12 15:37:24.430 +03:00 [INF] Application is shutting down...
+2025-09-12 15:39:48.049 +03:00 [INF] Now listening on: http://localhost:5157
+2025-09-12 15:39:48.126 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 15:39:48.127 +03:00 [INF] Hosting environment: Development
+2025-09-12 15:39:48.127 +03:00 [INF] Content root path: /root/E-Commerce-Analytics-Dashboard-API/E-Commerce-Analytics-Dashboard-API.API
+2025-09-12 15:41:06.737 +03:00 [INF] Application is shutting down...
+2025-09-12 15:45:01.038 +03:00 [INF] Now listening on: http://localhost:5157
+2025-09-12 15:45:01.146 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 15:45:01.150 +03:00 [INF] Hosting environment: Development
+2025-09-12 15:45:01.158 +03:00 [INF] Content root path: /root/E-Commerce-Analytics-Dashboard-API/E-Commerce-Analytics-Dashboard-API.API
+2025-09-12 15:45:10.054 +03:00 [INF] Application is shutting down...
+2025-09-12 15:47:50.044 +03:00 [INF] Now listening on: http://localhost:5157
+2025-09-12 15:47:50.118 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 15:47:50.119 +03:00 [INF] Hosting environment: Development
+2025-09-12 15:47:50.119 +03:00 [INF] Content root path: /root/E-Commerce-Analytics-Dashboard-API/E-Commerce-Analytics-Dashboard-API.API
+2025-09-12 15:48:44.337 +03:00 [INF] Application is shutting down...
+2025-09-12 15:51:03.433 +03:00 [INF] Now listening on: http://localhost:5157
+2025-09-12 15:51:03.543 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 15:51:03.551 +03:00 [INF] Hosting environment: Development
+2025-09-12 15:51:03.552 +03:00 [INF] Content root path: /root/E-Commerce-Analytics-Dashboard-API/E-Commerce-Analytics-Dashboard-API.API
+2025-09-12 15:51:40.850 +03:00 [INF] Application is shutting down...
+2025-09-12 15:52:29.514 +03:00 [INF] Now listening on: http://localhost:5157
+2025-09-12 15:52:29.710 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 15:52:29.718 +03:00 [INF] Hosting environment: Development
+2025-09-12 15:52:29.718 +03:00 [INF] Content root path: /root/E-Commerce-Analytics-Dashboard-API/E-Commerce-Analytics-Dashboard-API.API

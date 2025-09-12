@@ -2017,32 +2017,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gleb\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/root/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\E-Commerce-Analytics-Dashboard-API\\E-Commerce-Analytics-Dashboard-API.API\\E-Commerce-Analytics-Dashboard-API.API.csproj",
+      "projectUniqueName": "/root/E-Commerce-Analytics-Dashboard-API/E-Commerce-Analytics-Dashboard-API.API/E-Commerce-Analytics-Dashboard-API.API.csproj",
       "projectName": "E-Commerce-Analytics-Dashboard-API.API",
-      "projectPath": "C:\\E-Commerce-Analytics-Dashboard-API\\E-Commerce-Analytics-Dashboard-API.API\\E-Commerce-Analytics-Dashboard-API.API.csproj",
-      "packagesPath": "C:\\Users\\gleb\\.nuget\\packages\\",
-      "outputPath": "C:\\E-Commerce-Analytics-Dashboard-API\\E-Commerce-Analytics-Dashboard-API.API\\obj\\",
+      "projectPath": "/root/E-Commerce-Analytics-Dashboard-API/E-Commerce-Analytics-Dashboard-API.API/E-Commerce-Analytics-Dashboard-API.API.csproj",
+      "packagesPath": "/root/.nuget/packages/",
+      "outputPath": "/root/E-Commerce-Analytics-Dashboard-API/E-Commerce-Analytics-Dashboard-API.API/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\gleb\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/root/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2055,13 +2047,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -2115,7 +2101,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.119/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -27,3 +27,82 @@
 2025-09-12 15:52:29.710 +03:00 [INF] Application started. Press Ctrl+C to shut down.
 2025-09-12 15:52:29.718 +03:00 [INF] Hosting environment: Development
 2025-09-12 15:52:29.718 +03:00 [INF] Content root path: /root/E-Commerce-Analytics-Dashboard-API/E-Commerce-Analytics-Dashboard-API.API
+2025-09-12 16:05:18.690 +03:00 [INF] Now listening on: https://localhost:7119
+2025-09-12 16:05:18.728 +03:00 [INF] Now listening on: http://localhost:5157
+2025-09-12 16:05:18.881 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 16:05:18.883 +03:00 [INF] Hosting environment: Development
+2025-09-12 16:05:18.884 +03:00 [INF] Content root path: C:\E-Commerce-Analytics-Dashboard-API\E-Commerce-Analytics-Dashboard-API.API
+2025-09-12 16:05:20.227 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger - null null
+2025-09-12 16:05:20.598 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger - 301 0 null 390.6102ms
+2025-09-12 16:05:20.606 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/index.html - null null
+2025-09-12 16:05:20.739 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/index.html - 200 null text/html;charset=utf-8 133.4802ms
+2025-09-12 16:05:20.770 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/swagger-ui.css - null null
+2025-09-12 16:05:20.770 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/swagger-ui-bundle.js - null null
+2025-09-12 16:05:20.781 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-12 16:05:20.782 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/swagger-ui-standalone-preset.js - null null
+2025-09-12 16:05:20.842 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/_vs/browserLink - null null
+2025-09-12 16:05:20.856 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/_framework/aspnetcore-browser-refresh.js - 200 16561 application/javascript; charset=utf-8 75.2377ms
+2025-09-12 16:05:20.961 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-09-12 16:05:20.961 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-09-12 16:05:20.966 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 184.1984ms
+2025-09-12 16:05:20.978 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/swagger-ui.css - 200 152034 text/css 208.8199ms
+2025-09-12 16:05:21.016 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-09-12 16:05:21.051 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 281.529ms
+2025-09-12 16:05:21.092 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/_vs/browserLink - 200 null text/javascript; charset=UTF-8 250.7791ms
+2025-09-12 16:05:21.316 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7119/swagger/v1/swagger.json - null null
+2025-09-12 16:05:21.328 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7119/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.1482ms
+2025-09-12 16:06:34.452 +03:00 [WRN] Overriding address(es) 'http://0.0.0.0:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-09-12 16:06:34.532 +03:00 [INF] Now listening on: http://0.0.0.0:5001
+2025-09-12 16:06:34.705 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 16:06:34.707 +03:00 [INF] Hosting environment: Development
+2025-09-12 16:06:34.708 +03:00 [INF] Content root path: C:\E-Commerce-Analytics-Dashboard-API\E-Commerce-Analytics-Dashboard-API.API
+2025-09-12 16:06:35.573 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger - null null
+2025-09-12 16:06:35.704 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger - 301 0 null 137.7829ms
+2025-09-12 16:06:35.711 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/index.html - null null
+2025-09-12 16:06:35.787 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/index.html - 200 null text/html;charset=utf-8 76.8564ms
+2025-09-12 16:06:35.808 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/swagger-ui.css - null null
+2025-09-12 16:06:35.809 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/swagger-ui-bundle.js - null null
+2025-09-12 16:06:35.810 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/swagger-ui-standalone-preset.js - null null
+2025-09-12 16:06:35.927 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-09-12 16:06:35.928 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-09-12 16:06:35.933 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/swagger-ui.css - 200 152034 text/css 125.052ms
+2025-09-12 16:06:35.933 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 122.5996ms
+2025-09-12 16:06:35.937 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/_vs/browserLink - null null
+2025-09-12 16:06:35.938 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-09-12 16:06:35.940 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-12 16:06:35.945 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 136.1277ms
+2025-09-12 16:06:35.949 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/_framework/aspnetcore-browser-refresh.js - 200 16561 application/javascript; charset=utf-8 9.1276ms
+2025-09-12 16:06:35.992 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.5422ms
+2025-09-12 16:06:36.216 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - null null
+2025-09-12 16:06:36.229 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 13.1792ms
+2025-09-12 16:06:36.246 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5001/swagger/favicon-32x32.png - null null
+2025-09-12 16:06:36.249 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-09-12 16:06:36.251 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5001/swagger/favicon-32x32.png - 200 628 image/png 4.0439ms
+2025-09-12 16:08:41.280 +03:00 [WRN] Overriding address(es) 'http://0.0.0.0:5000, https://0.0.0.0:5001'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead.
+2025-09-12 16:08:41.351 +03:00 [INF] Now listening on: http://0.0.0.0:5000
+2025-09-12 16:08:41.353 +03:00 [INF] Now listening on: https://0.0.0.0:5001
+2025-09-12 16:08:41.438 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-09-12 16:08:41.439 +03:00 [INF] Hosting environment: Development
+2025-09-12 16:08:41.440 +03:00 [INF] Content root path: C:\E-Commerce-Analytics-Dashboard-API\E-Commerce-Analytics-Dashboard-API.API
+2025-09-12 16:08:42.215 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger - null null
+2025-09-12 16:08:42.341 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger - 301 0 null 132.5115ms
+2025-09-12 16:08:42.346 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/index.html - null null
+2025-09-12 16:08:42.409 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/index.html - 200 null text/html;charset=utf-8 62.9498ms
+2025-09-12 16:08:42.422 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - null null
+2025-09-12 16:08:42.428 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - null null
+2025-09-12 16:08:42.428 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - null null
+2025-09-12 16:08:42.522 +03:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-09-12 16:08:42.522 +03:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-09-12 16:08:42.522 +03:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-09-12 16:08:42.531 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 103.5123ms
+2025-09-12 16:08:42.531 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 103.1013ms
+2025-09-12 16:08:42.531 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/swagger-ui.css - 200 152034 text/css 109.0889ms
+2025-09-12 16:08:42.541 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - null null
+2025-09-12 16:08:42.543 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/_vs/browserLink - null null
+2025-09-12 16:08:42.547 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_framework/aspnetcore-browser-refresh.js - 200 16561 application/javascript; charset=utf-8 6.1294ms
+2025-09-12 16:08:42.611 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/_vs/browserLink - 200 null text/javascript; charset=UTF-8 67.5728ms
+2025-09-12 16:08:42.825 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - null null
+2025-09-12 16:08:42.832 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 7.676ms
+2025-09-12 16:08:42.852 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - null null
+2025-09-12 16:08:42.856 +03:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-09-12 16:08:42.858 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5000/swagger/favicon-32x32.png - 200 628 image/png 5.1929ms

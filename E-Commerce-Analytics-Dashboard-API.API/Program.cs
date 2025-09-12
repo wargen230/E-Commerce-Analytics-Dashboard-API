@@ -11,6 +11,7 @@ options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")
 	.LogTo(Console.WriteLine, LogLevel.Information));
 
 Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
     .WriteTo.File("logs/log.txt", rollingInterval: RollingInterval.Day)
     .CreateLogger();
 

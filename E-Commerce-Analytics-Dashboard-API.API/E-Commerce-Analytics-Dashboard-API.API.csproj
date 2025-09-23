@@ -10,6 +10,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.19" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.9" />
+    <PackageReference Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="9.0.9" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.4" />
     <PackageReference Include="Serilog" Version="4.3.0" />
     <PackageReference Include="Serilog.AspNetCore" Version="9.0.0" />
@@ -21,11 +22,9 @@
     <Folder Include="Application\Features\Analytics\" />
     <Folder Include="Application\Features\Orders\" />
     <Folder Include="Application\Features\Reports\" />
-    <Folder Include="Application\Interfaces\" />
     <Folder Include="Core\" />
     <Folder Include="Infrastructure\Data\" />
     <Folder Include="Infrastructure\Identity\" />
-    <Folder Include="Infrastructure\Services\" />
     <Folder Include="Infrastructure\Extensions\" />
     <Folder Include="BackgroundJobs\" />
     <Folder Include="logs\" />

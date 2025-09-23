@@ -1,6 +1,8 @@
 using E_Commerce_Analytics_Dashboard_API.API.Shared;
+using Microsoft.Extensions.Caching.StackExchangeRedis;
 using Microsoft.EntityFrameworkCore;
 using Serilog;
+using E_Commerce_Analytics_Dashboard_API.API.Application.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,9 +19,16 @@ Log.Logger = new LoggerConfiguration()
 
 builder.Host.UseSerilog();
 
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = "localhost";
+    options.InstanceName = "local";
+});
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
+builder.Services.AddScoped<ISummaryService, SummaryService>();
 
 var app = builder.Build();
 
